@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pixel {
+    font-family: 'Press Start 2P', monospace, cursive;
+  }
+  .image-rendering-pixelated {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Custom scrollbars and canvas smoothing reset */
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
